@@ -1,8 +1,8 @@
-# -*- coding: UTF-8 -*-
 import reaper_python
 import re
 import sys
-
+reload(sys)
+sys.setdefaultencoding('utf-8')
 
 proj = RPR_GetProjectName('', 0, 0)[1][:-4]
 
